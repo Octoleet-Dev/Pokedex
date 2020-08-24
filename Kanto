@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-  std::cout <<  "Please enter a pokemon number from one to nine: ";
+  std::cout <<  "Please enter a pokemon number: ";
   int pkID = 0;
   std::cin >> pkID;
   int caught: 0
