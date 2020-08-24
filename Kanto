@@ -1,10 +1,11 @@
 #include <iostream>
 
 int main() {
-  std::cout <<  "Please enter a pokemon number: ";
+  std::cout <<  "Please enter a Pokemon ID: ";
   int pkID = 0;
   std::cin >> pkID;
   int caught = 0;
+  int bulbas = 0;
   
   switch(pkID) {
     
@@ -19,7 +20,9 @@ int main() {
       std::cout << "There is a plant seed on its back right from the day this pokemon is born.\n";
       std::cout << "The seed slowly grows larger\n";
       std::cout << "How many Bulbasaur have you caught\n";
-      std::in >> caught
+      std::cin >> bulbas;
+      std::cout << "Please enter a Pokemon ID\n";
+      std::cin >> pkID
       break;
     case 2 :
       std::cout << "Ivysaur\n";
