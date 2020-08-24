@@ -10,7 +10,7 @@ int main() {
     
     case 1 :
       std::cout << "Bulbusaur\n";
-      std::cout << "The seed type pokemon\n";
+      std::cout << "The seed pokemon\n";
       std::cout << "Type: Grass Poison\n";
       std::cout << "Weaknesses: Fire Psychic Flying Ice\n";
       std::cout << "Average Height: 0.7m\n";
@@ -18,6 +18,8 @@ int main() {
       std::cout << "Overview: Bulbsaur is a small green pokemon usually found in the forest habitat\n";
       std::cout << "There is a plant seed on its back right from the day this pokemon is born.\n";
       std::cout << "The seed slowly grows larger\n";
+      std::cout << "How many Bulbasaur have you caught\n";
+      std::in >> caught
       break;
     case 2 :
       std::cout << "Ivysaur\n";
