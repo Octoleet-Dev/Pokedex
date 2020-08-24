@@ -1,0 +1,54 @@
+#include <iostream>
+
+int main() {
+  std::cout <<  "Please enter a pokemon number from one to nine: ";
+  int pkID = 0;
+  std::cin >> pkID;
+  int caught: 0
+  
+  switch(pkID) {
+    
+    case 1 :
+      std::cout << "Bulbusaur\n";
+      std::cout << "The seed type pokemon\n"
+      std::cout << "Type: Grass Poison\n";
+      std::cout << "Weaknesses: Fire Psychic Flying Ice\n";
+      std::cout << "Average Height: 0.7m\n";
+      std::cout << "Average Weight: 6.9KG\n";
+      std::cout << "Overview: Bulbsaur is a small green pokemon usually found in the forest habitat\n";
+      std::cout << "There is a plant seed on its back right from the day this pokemon is born.\n";
+      std::cout << "The seed slowly grows larger\n";
+      break;
+    case 2 :
+      std::cout << "Ivysaur\n";
+      break;
+    case 3 :
+      std::cout << "Venusaur\n";
+      break;
+    case 4 :
+      std::cout << "Charmander\n";
+      break;
+    case 5 :
+      std::cout << "Charmeleon\n";
+      break;
+    case 6 :
+      std::cout << "Charizard\n";
+    case 7 :
+     std::cout <<
+     "Squirtle\n";
+      break;
+    case 8 :
+      std::cout <<
+      "Wartortle\n";
+      break;
+     case 9 :
+      std::cout <<
+      "Blastoise\n";  
+      break;
+    default :
+      std::cout << "Unknown\n";
+      break;
+  
+  }
+  
+}
